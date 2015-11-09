@@ -15,7 +15,11 @@ An implementation of minimum cost flow algorithm.
 
 ## Input Format
 
-First line contains two integers denoting the number of vertices and the number of edges in the network.
-Next line contains an integer denoting the additional flow required from source to sink.
-Next line contains two integers denoting the source and sink in the network.
-This is followed by multiple lines (equal to the number of edges to be specific) with each line describing an edge. Each edge is described as contains 5 integers denoting `s`, `t`, `capacity`, `cost` and `current flow`.
+- First line contains two integers denoting the number of vertices and the number of edges in the network.
+- Next line contains an integer denoting the additional flow required from source to sink.
+- Next line contains two integers denoting the source and sink in the network.
+- This is followed by multiple lines (equal to the number of edges to be specific) with each line describing an edge. - Each edge is described as contains 5 integers denoting `s`, `t`, `capacity`, `cost` and `current flow`.
+
+## Licence
+
+The code is released under the [MIT License](http://opensource.org/licenses/MIT).
