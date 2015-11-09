@@ -20,6 +20,19 @@ An implementation of minimum cost flow algorithm.
 - Next line contains two integers denoting the source and sink in the network.
 - This is followed by multiple lines (equal to the number of edges to be specific) with each line describing an edge. - Each edge is described as contains 5 integers denoting `s`, `t`, `capacity`, `cost` and `current flow`.
 
+## Setup and running instructions
+
+All code is present in `mincost.cpp`. You can compile it using
+
+    g++ mincost.cpp
+    
+You can also try some of the sample examples present in the repository as folloes:
+
+    ./a.out < examples/input1
+    ./a.out < examples/input2
+    ./a.out < examples/input3
+    ./a.out < examples/input4
+
 ## Licence
 
 The code is released under the [MIT License](http://opensource.org/licenses/MIT).
